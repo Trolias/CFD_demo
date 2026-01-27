@@ -1,3 +1,1 @@
-# CFD_demo
-Used for demonstration purposes
-Dyskolik
+Notebooks featuring different topic of scientific computing
