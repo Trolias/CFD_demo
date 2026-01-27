@@ -2,7 +2,7 @@
 
 This repository contains a numerical implementation of the **1D Kuramoto-Sivashinsky (KS) equation**. The solver is designed to handle the stiff nature of the equation using advanced exponential time integration.
 
-##Mathematical Formulation
+## Mathematical Formulation
 
 The Kuramoto-Sivashinsky equation is a partial differential equation known for its chaotic behavior, often used to model laminar flame fronts or reaction-diffusion systems. It is defined as:
 
