@@ -24,11 +24,9 @@ Specifically, the integration follows the **ETDRK4** (4th-order Exponential Time
 
 ## Credits & References
 
-* **Inspiration:** The numerical implementation logic is heavily influenced by the [Machine Learning Simulation](https://www.youtube.com/@MachineLearningSimulation) YouTube channel.
-* **Core Methodology:** The time-stepping schemes are based on the definitive work by Cox and Matthews:
+* **Inspiration:** The numerical implementation logic (and topic) is heavily influenced by the [Machine Learning Simulation](https://www.youtube.com/@MachineLearningSimulation) YouTube channel.
+* **Core Methodology:** The time-stepping schemes are based on the work by Cox and Matthews:
 
 > **S.M. Cox, P.C. Matthews**, *Exponential Time Differencing for Stiff Systems*, Journal of Computational Physics, Volume 176, Issue 2, 2002, Pages 430-455.  
 > ISSN 0021-9991 | [https://doi.org/10.1006/jcph.2002.6995](https://doi.org/10.1006/jcph.2002.6995)
 
-### Abstract
-We develop a class of numerical methods for stiff systems, based on the method of exponential time differencing. We describe schemes with second- and higher-order accuracy, introduce new Runge–Kutta versions of these schemes, and extend the method to show how it may be applied to systems whose linear part is nondiagonal. We test the method against other common schemes, including integrating factor and linearly implicit methods, and show how it is more accurate in a number of applications.
