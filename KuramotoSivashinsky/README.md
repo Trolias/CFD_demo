@@ -20,8 +20,7 @@ where:
 
 To overcome the numerical stiffness introduced by the fourth-order hyper-diffusion term, this code implements the **Exponential Time Differencing (ETD)** schemes. 
 
-Specifically, the integration follows the **ETDRK4** (4th-order Exponential Time Differencing Runge-Kutta) method. This approach treats the linear part exactly using an integrating factor, which allows for significantly larger time steps compared to standard explicit Runge-Kutta methods.
-
+Specifically, the  ETD1 and ETD2 methods are implementef. 
 ## Credits & References
 
 * **Inspiration:** The numerical implementation logic (and topic) is heavily influenced by the [Machine Learning Simulation](https://www.youtube.com/@MachineLearningSimulation) YouTube channel.
